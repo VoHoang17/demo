@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    padding: 10px 16px 10px 16px;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    height: auto;
+    background: #FBFBFB;
+}
+
+
+header {
+    position: absolute;
+    width: 1440px;
+    height: 202px;
+    left: calc(50% - 1440px/2);
+    top: 0px;
+
+}
+.Home {
+    position: absolute;
+    width: 1440px;
+    height: 32px;
+    left: calc(50% - 1440px/2);
+    top: 0px;
+    background: #1A1A1A;
+}
+
+.HomeP {
+    position: absolute;
+    width: 106.36px;
+    height: 15px;
+    left: 130.64px;
+    top: 8px;
+}
+
+.HomePI {
+    position: absolute;
+    width: 13.96px;
+    height: 14px;
+}
+
+.HomePN {
+    position: absolute;
+    width: 84px;
+    right: 0px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #F1F1F1;
+}
+
+.HomeA {
+    position: absolute;
+    width: 254.74px;
+    height: 15px;
+    left: 268.26px;
+    top: 8px;
+}
+
+.HomeAIc {
+    position: absolute;
+    width: 10.97px;
+    height: 14px;
+}
+
+.HomeAList {
+    position: absolute;
+    width: 235px;
+    height: 15px;
+    top: 0%;
+    right: 0%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #F1F1F1;
+}
+
+.HomeStar {
+    position: absolute;
+    width: 278.67px;
+    height: 15px;
+    left: 1032px;
+    top: 8px;
+}
+
+
+.HomeSList {
+    position: absolute;
+    width: 182px;
+    height: 15px;
+    right: 0px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #F1F1F1;
+}
+
+.Home1 {
+    position: absolute;
+    width: 1440px;
+    height: 120px;
+    left: 0px;
+    top: 32px;
+    background: #FBFBFB;
+    mix-blend-mode: screen;
+    backdrop-filter: blur(84px);
+}
+
+.logo {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 130px;
+    top: 35px;
+}
+
+.H1logo {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    font-family: Germania One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    line-height: 50px;
+    color: #1A1A1A;
+}
+
+.HomeSex {
+    position: absolute;
+    width: 170px;
+    height: 120px;
+    left: 298px;
+}
+
+.men {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 20px;
+    position: absolute;
+    width: 72px;
+    height: 120px;
+}
+
+.men-text {
+    position: static;
+    width: 32px;
+    height: 20px;
+    left: 20px;
+    top: 50px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #1A1A1A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 10px;
+}
+
+.women {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 20px;
+    position: absolute;
+    width: 98px;
+    height: 120px;
+    right: 0px;
+}
+
+.women-text {
+    position: static;
+    width: 58px;
+    height: 20px;
+    left: 20px;
+    top: 50px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #1A1A1A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 10px;
+}
+
+
+.line-2 {
+    position: absolute;
+    width: 32px;
+    height: 0px;
+    left: 318px;
+    top: 74px;
+    border: 2px solid #1A1A1A;
+    transform: rotate(180deg);
+}
+
+.search-box {
+    position: absolute;
+    width: 380px;
+    height: 38px;
+    left: 530px;
+    top: 41px;
+}
+
+.search-input {
+    position: absolute;
+    width: 280px;
+    height: 38px;
+
+    background: #FFFFFF;
+    border: 1px solid #9A9A9A;
+    box-sizing: border-box;
+}
+
+.search-button {
+    position: absolute;
+    width: 100px;
+    height: 38px;
+    right: 0px;
+    background: #1A1A1A;
+}
+
+.search-icon {
+    position: absolute;
+    left: 16%;
+    right: 70%;
+    top: 31.58%;
+    bottom: 31.58%;
+}
+
+.search-button-text {
+    position: absolute;
+    left: 38%;
+    right: 16%;
+    top: 26.32%;
+    bottom: 26.32%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.account {
+    position: absolute;
+    width: 109.91px;
+    height: 35px;
+    left: 980.27px;
+    top: 42px;
+}
+
+.account-info {
+    position: absolute;
+    width: 70.19px;
+    height: 35px;
+    right: 0px;
+}
+
+.account-log-in-out {
+    position: absolute;
+    width: 70px;
+    height: 13px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.account-name {
+    position: absolute;
+    width: 54px;
+    height: 18px;
+    bottom: 0px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.account-icon-1 {
+    position: absolute;
+    width: 20.97px;
+    height: 20px;
+    top: 8px;
+}
+
+.account-icon-2 {
+    position: absolute;
+    height: 6px;
+    right: 0%;
+    bottom: 20%;
+}
+
+.wishlist {
+    position: absolute;
+    width: 90.76px;
+    height: 18px;
+    left: 1122.1px;
+    top: 51px;
+}
+
+.wishlist-icon {
+    position: absolute;
+    width: 21.36px;
+    height: 18px;
+}
+
+.wishlist-text {
+    position: absolute;
+    width: 50px;
+    height: 18px;
+    right: 0%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.cart {
+    position: absolute;
+    width: 68.45px;
+    height: 20px;
+    left: 1241.41px;
+    top: 50px;
+}
+
+.cart-icon {
+    position: absolute;
+    width: 19.94px;
+    height: 20px;
+}
+
+.cart-text {
+    position: absolute;
+    width: 29px;
+    height: 18px;
+    right: 0%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.line-1 {
+    position: absolute;
+    width: 1170px;
+    height: 0px;
+    left: 135px;
+    top: 120px;
+    border: 1px solid #F1F1F1;
+}
+.Home2{
+    position: absolute;
+    width: 1440px;
+    height: 50px;
+    left: 0px;
+    top: 152px;
+    
+    /* white */
+    
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    backdrop-filter: blur(84px);
+    /* Note: backdrop-filter has minimal browser support */
+
+}
+.H2Small{
+    position: absolute;
+    width: 991px;
+    height: 34px;
+    left: 225px;
+    top: 160px;
+    
+}
+.line-3-1 {
+  /* Line 3 */
+    position: absolute;
+    left: 0%;
+    right: -2287733248%;
+    top: 0%;
+    bottom: 100%;
+
+    /* gray f1 */
+
+    border: 1px solid #F1F1F1;
+    transform: rotate(90deg);
+}
+
+.list31 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    
+    position: absolute;
+    width: 93px;
+    height: 34px;
+    left: 225px;
+    top: 160px;
+    
+    /* padding */
+    
+    border-radius: 5px;
+}
+
+.list32 {
+    position: absolute;
+    height: 18px;
+    top: 23.53%;
+    font-size: 14px;
+    color: #171717;
+    left: 12.61%;
+}
+
+.list33 {
+    position: absolute;
+    height: 18px;
+    top: 23.53%;
+    font-size: 14px;
+    color: #171717;
+    left: 23.81%;
+}
+
+.list34 {
+    position: absolute;
+    height: 18px;
+    top: 23.53%;
+    font-size: 14px;
+    color: #171717;
+    left: 33.5%;
+}
+
+.list35 {
+    position: absolute;
+    height: 18px;
+    top: 23.53%;
+    font-size: 14px;
+    color: #171717;
+    left: 46.12%;
+}
+
+.list36 {
+    position: absolute;
+    height: 18px;
+    top: 23.53%;
+    font-size: 14px;
+    color: #171717;
+    right: 33.4%;
+}
+
+.list37 {
+    position: absolute;
+    height: 18px;
+    top: 23.53%;
+    font-size: 14px;
+    color: #171717;
+    right: 23.01%;
+}
+
+.list38 {
+    position: absolute;
+    height: 18px;
+    top: 23.53%;
+    font-size: 14px;
+    color: #171717;
+    right: 11%;
+}
+
+.list39 {
+    position: absolute;
+    height: 18px;
+    top: 23.53%;
+    font-size: 14px;
+    color: #171717;
+    right: 2.42%;
+}
+.banner{
+    position: absolute;
+    width: 1440px;
+    height: 598px;
+    left: 0px;
+    top: 202px;
+
+    background: #CDDDF0;
+}
+.bennertangle16{
+    position: absolute;
+    width: 1431px;
+    height: 598px;
+    left: 0px;
+    top: 202px;
+
+    background: #C4C4C4;
+}
+
