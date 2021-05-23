@@ -393,25 +393,530 @@ header {
 .Home2{
     position: absolute;
     width: 1440px;
-    height: 50px;
+    height: 35px;
     left: 0px;
-    top: 152px;
-    
-    /* white */
-    
+    top: 130px;   
     background: #FFFFFF;
     mix-blend-mode: normal;
-    backdrop-filter: blur(84px);
-    /* Note: backdrop-filter has minimal browser support */
-
+    backdrop-filter: blur(84px); 
 }
-.H2Small{
+.H2list{
     position: absolute;
     width: 991px;
     height: 34px;
     left: 225px;
-    top: 160px;  
+    top: 160px;   
+}
+.Listt1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    position: absolute;
+    width: 93px;
+    left: 225px;
+    
+    /* padding */
+    
+    border-radius: 5px;  
+}
+.Listt-link1{
+    position: static;
+    width: 45px;
+    height: 18px;
+    left: 24px;
+    top: 8px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* black */
+    
+    color: #171717;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;     
+}
+.line3-1 {
+    position: absolute;
+    width: 0px;
+    height: 16px;
+    left: 100px;
+}
+.listt2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    
+    position: absolute;
+    width: 103px;
+    left: 326px;
+   
+    
+    /* padding */
+    
+    border-radius: 5px;  
+}
+.Listt-link2{
+    position: static;
+    width: 55px;
+    height: 18px;
+    left: 24px;
+    top: 8px;
+    
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* black */
+    
+    color: #1A1A1A;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;  
+}
+.line3-2 {
+    position: absolute;
+    width: 0px;
+    height: 16px;
+    left: 100px; 
+}
+.listt3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    
+    position: absolute;
+    width: 88px;
+    height: 34px;
+    left: 437px;
+    
+    /* padding */
+    
+    border-radius: 5px;  
+}
+.Listt-link3{
+    position: static;
+    width: 40px;
+    height: 18px;
+    left: 24px;
+
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* black */
+
+    color: #1A1A1A;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+.line3-3 {
+    position: absolute;
+    width: 0px;
+    height: 16px;
+    left: 100px;  
+}
+.listt4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    
+    position: absolute;
+    width: 117px;
+    height: 34px;
+    left: 533px;
+    
+    /* padding */
+    
+    border-radius: 5px;  
+
+}
+.Listt-link4 {
+    position: static;
+    width: 69px;
+    height: 18px;
+    left: 24px;
+    
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* black */
+    
+    color: #1A1A1A;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;  
+}
+.line3-4 {
+    position: absolute;
+    width: 0px;
+    height: 16px;
+    left: 130px; 
+}
+.listt5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    
+    position: absolute;
+    width: 125px;
+    height: 34px;
+    left: 658px;
+    
+    /* padding */
+    
+    border-radius: 5px; 
+}
+.Listt-link5 {
+    position: static;
+    width: 77px;
+    height: 18px;
+    left: 24px;
+    
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* black */
+    
+    color: #1A1A1A;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px; 
+}
+.line3-5 {
+    position: absolute;
+    width: 0px;
+    height: 16px;
+    left: 130px; 
+}
+.listt6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    
+    position: absolute;
+    width: 118px;
+    height: 34px;
+    left: 791px;
+    
+    /* padding */
+    
+    border-radius: 5px;  
+}
+.Listt-link6 {
+    position: static;
+    width: 70px;
+    height: 18px;
+    left: 24px;
+    
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* black */
+    
+    color: #1A1A1A;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;  
+}
+.line3-6 {
+    position: absolute;
+    width: 0px;
+    height: 16px;
+    left: 120px; 
+}
+.listt7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    
+    position: absolute;
+    width: 95px;
+    height: 34px;
+    left: 917px;
+    
+    /* padding */
+    
+    border-radius: 5px; 
+}
+.Listt-link7 {
+    position: static;
+    width: 47px;
+    height: 18px;
+    left: 24px;
+    
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* black */
+    
+    color: #1A1A1A;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;  
+}
+.line3-7 {
+    position: absolute;
+    width: 0px;
+    height: 16px;
+    left: 100px; 
+}
+.listt8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    
+    position: absolute;
+    width: 111px;
+    height: 34px;
+    left: 1020px;
+    
+    /* padding */
+    
+    border-radius: 5px;  
+}
+.Listt-link8 {
+    position: static;
+    width: 63px;
+    height: 18px;
+    left: 24px;
+    
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* black */
+    
+    color: #1A1A1A;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;  
+}
+.line3-8 {
+    position: absolute;
+    width: 0px;
+    height: 16px;
+    left: 100px; 
+}
+.listt9 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    
+    position: absolute;
+    width: 77px;
+    height: 34px;
+    left: 1139px;
+    
+    /* padding */
+    
+    border-radius: 5px;  
+}
+.Listt-link9 {
+    position: static;
+    width: 29px;
+    height: 18px;
+    left: 24px;
+    
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* black */
+    
+    color: #1A1A1A;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;  
 }
 
+
+
+.line3{
+    position: absolute;
+    left: 0%;
+    right: -2287733248%;
+    top: 0%;
+    bottom: 100%;
+    
+    /* gray f1 */
+    
+    border: 1px solid #F1F1F1;
+    transform: rotate(90deg); 
+}
+.Banner{
+    position: absolute;
+    width: 1440px;
+    height: 598px;
+    top: 170px;
+    background: #CDDDF0;
+}
+.Banner_box{
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: lightcyan;
+    height: 460px;
+    width: 680px;
+    top: 75px;
+    left: 630px;
+}
+.Banner_box_text1 {
+    position: absolute;
+    width: 105px;
+    height: 36px;
+    left: 1189px;
+    top: 677px;
+    
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    
+    /* black */
+    
+    color: #5a0f0f;      
+}
+.Banner_box_text2 {
+    position: absolute;
+    width: 105px;
+    height: 36px;
+    left: 1189px;
+    top: 677px;
+    
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    
+    /* black */
+    
+    color: #5a0f0f;      
+}
+
+
+.image{
+    position: absolute;
+    width: 470px;
+    height: 705px;
+    left: 832px;
+    }
 
 
